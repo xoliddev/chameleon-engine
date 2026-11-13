@@ -2,6 +2,8 @@
 
 # Chameleon Engine
 
+**English** · [O'zbekcha](README.uz.md)
+
 **One landing page that rewires itself for any industry, plus the real product behind it:**
 accounts, a database, a dashboard, signed webhooks and a public lead-capture API.
 
