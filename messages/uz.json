@@ -1,0 +1,716 @@
+{
+  "ui": {
+    "nav_calc": "Kalkulyator",
+    "nav_pay": "To'lovlar",
+    "nav_auto": "Avtomatlashtirish",
+    "nav_dash": "Boshqaruv",
+    "nav_price": "Narxlar",
+    "nav_cta": "Buyurtma berish",
+    "hero_eyebrow": "Jonli demo — pastdagilarning hammasini sinab ko'ring",
+    "hero_title": "Shunchaki sayt emas. <em>24/7 daromad</em> va avtomatlashtirish dvigateli.",
+    "hero_sub": "Quyida sohangizni tanlang — butun sahifa qayta quriladi: kalkulyator, to'lov, avtomatik buyurtmalar va boshqaruv paneli aynan sizning biznesingizga moslashadi.",
+    "hero_pick": "Biznes turingizni tanlang",
+    "hero_cta1": "Dvigatelni sinab ko'rish",
+    "hero_cta2": "Paketlarni ko'rish",
+    "stat1_l": "til · 4 valyuta, sahifa qayta yuklanmaydi",
+    "stat2_l": "arizadan Telegram yoki Slack'gacha",
+    "stat3_l": "kod va ma'lumotlar to'liq sizniki",
+    "stat4_l": "kun — topshiriqdan ishga tushirishgacha",
+    "eng_rev": "Shu oylik tushum",
+    "eng_feed": "Real vaqt hodisalari",
+    "pains_kicker": "01 — Muammo",
+    "pains_title": "Ko'p saytlar chiroyli — <em>lekin jimgina pul yo'qotadi.</em>",
+    "pains_sub": "Biznes egalari “chiroyli” uchun emas, savdo o'sishi va avtomatlashtirish uchun pul to'laydi. Oddiy saytlar aynan shu yerda yutqazadi.",
+    "pain_old": "Oddiy frilanser",
+    "pain_new": "Bu dvigatel",
+    "calc_kicker": "02 — Aqlli kalkulyator",
+    "calc_title": "Mijozlar <em>narxni o'zi hisoblaydi.</em>",
+    "calc_sub": "Chapda — mijozingiz ko'radigan va sinab ko'radigan qism. O'ngda — bu sizning daromadingiz uchun nimani anglatishi.",
+    "calc_customer": "Mijoz ko'rinishi",
+    "calc_owner": "Egasi nigohi — foyda",
+    "calc_total": "Darhol narx",
+    "calc_book": "Band qilish va avans to'lash",
+    "calc_visitors": "Oylik tashrif buyuruvchilar",
+    "calc_extra": "Qo'shimcha tushum / oy",
+    "calc_hours": "Tejalgan soat / oy",
+    "calc_payback": "Loyiha o'zini oqlaydi",
+    "calc_days": "kunda",
+    "calc_static": "Oddiy sayt",
+    "calc_engine": "Bu dvigatel",
+    "calc_note": "Hisob: oddiy sayt konversiyasi 1.1%, dvigatel — 3.2%; arizalarning 15% yuqoridagi narxda sotuvga aylanadi; har bir arizada 20 daqiqa qo'l mehnati tejaladi. Qaytim Business Growth Engine paketi uchun.",
+    "calc_custom": "Aynan shu kalkulyator sizning biznesingizga kerakmi?",
+    "calc_custom_btn": "Moslashtirish →",
+    "pay_kicker": "03 — To'lov sinov maydoni",
+    "pay_title": "Pulni <em>“ha” degan zahoti</em> qabul qiling.",
+    "pay_sub": "Haqiqiy to'lov oynasi orqali $1.00 lik test to'lovini o'tkazing. Pul yechilmaydi — lekin jarayon, chek va PDF invoys haqiqiy.",
+    "pay_region_global": "Xalqaro",
+    "pay_region_cis": "Rossiya va MDH",
+    "pay_region_uz": "O'zbekiston",
+    "pay_f1": "Imzolangan webhooklar",
+    "pay_f2": "Har to'lovga PDF invoys",
+    "pay_f3": "Avans, to'liq to'lov, obuna",
+    "pay_f4": "Ko'p valyuta, hududga mos",
+    "pay_testmode": "Test · pul yechilmaydi",
+    "pay_item": "Demo tranzaksiya",
+    "pay_item_sub": "Sinov · darhol chek",
+    "pay_dep_sub": "Kalkulyatordan avans",
+    "pay_via": "To'lov usuli",
+    "pay_card": "Karta raqami",
+    "pay_exp": "Muddati",
+    "pay_phone": "Hamyonga ulangan raqam",
+    "pay_sms": "SMS kod sinov rejimida avtomatik",
+    "pay_wallet_note": "Biometrik tasdiq simulyatsiya qilinadi",
+    "pay_crypto_note": "Aynan shu summani yuboring (TRC-20)",
+    "pay_btn": "To'lash",
+    "pay_proc1": "To'lov yaratilmoqda",
+    "pay_proc2": "Xavfsiz tekshiruv (3-D Secure)",
+    "pay_proc3": "Shlyuz tasdiqlamoqda",
+    "pay_proc4": "Invoys va CRM xabari tayyorlanmoqda",
+    "pay_ok": "To'lov muvaffaqiyatli",
+    "pay_ok_sub": "Webhook qabul qilindi · buyurtma panelda",
+    "pay_r_id": "Chek",
+    "pay_r_gw": "Shlyuz",
+    "pay_r_amt": "Summa",
+    "pay_r_date": "Sana",
+    "pay_pdf": "PDF invoysni yuklash",
+    "pay_again": "Qayta",
+    "pay_secure": "Shifrlangan · PCI-DSS shlyuz tomonida",
+    "auto_kicker": "04 — 2 soniyalik ariza ko'prigi",
+    "auto_title": "Formadan telefoningizga <em>2 soniyadan tez.</em>",
+    "auto_sub": "Sinov arizasini yozing va “Simulyatsiya”ni bosing. U bazaga saqlanadi, AI baholaydi va Telegram, Slack yoki Zapier orqali istalgan ilovaga yuboriladi — kabinetda ulaganingizdan so'ng haqiqatan.",
+    "auto_form": "Saytingizdagi forma",
+    "f_name": "Ism",
+    "f_budget": "Budjet",
+    "f_msg": "Xabar",
+    "f_btn": "Arizani simulyatsiya qilish",
+    "st1": "Ariza saqlandi",
+    "st2": "AI baholash",
+    "st3": "Darhol yuborish",
+    "log_idle": "$ ariza kutilmoqda…",
+    "tg_online": "bot · onlayn",
+    "tg_hello": "Bot ulandi. Yangi arizalar shu yerga darhol keladi.",
+    "tg_new": "Yangi ariza",
+    "tg_score": "AI baho",
+    "tg_open": "CRMda ochish",
+    "tg_reply": "Javob berish",
+    "tg_paid": "To'lov qabul qilindi",
+    "intent_buy": "Sotib olishga tayyor",
+    "intent_price": "Narx so'rovi",
+    "intent_disc": "Tanishuv",
+    "toast_lead": "Ariza yetkazildi:",
+    "toast_lead_sub": "Admin panelga qarang — u allaqachon u yerda.",
+    "toast_pay": "Test to'lov o'tdi",
+    "toast_pay_sub": "Buyurtma panel tushumiga qo'shildi.",
+    "toast_cms": "E'lon qilindi",
+    "toast_cms_sub": "Sarlavha saytda yangilandi.",
+    "toast_book": "Avans to'lov oynasiga o'tdi",
+    "dash_kicker": "05 — Boshqaruv paneli",
+    "dash_title": "Hammasini <em>bitta ekrandan</em> boshqaring.",
+    "dash_sub": "Yuqorida qilgan ariza va to'lovlaringiz allaqachon shu yerda. “Kontent”da sarlavhani o'zgartiring — sayt jonli yangilanadi.",
+    "dash_client": "Mijoz ko'rinishi",
+    "dash_admin": "Admin ko'rinishi",
+    "d_overview": "Umumiy",
+    "d_leads": "Arizalar",
+    "d_orders": "Buyurtmalar",
+    "d_cms": "Kontent",
+    "d_settings": "Integratsiyalar",
+    "d_hello": "Xayrli tong",
+    "d_today": "Siz uxlaganingizda dvigatel nima qildi.",
+    "k_rev": "Tushum (30 kun)",
+    "k_leads": "Yangi arizalar",
+    "k_conv": "Konversiya",
+    "k_aov": "O'rtacha chek",
+    "d_chart": "Tushum — so'nggi 30 kun",
+    "d_recent": "So'nggi arizalar",
+    "d_sources": "Manbalar",
+    "th_name": "Ism",
+    "th_source": "Manba",
+    "th_score": "AI",
+    "th_status": "Holat",
+    "th_amount": "Summa",
+    "th_gw": "Shlyuz",
+    "th_item": "Mahsulot",
+    "st_new": "Yangi",
+    "st_qual": "Saralangan",
+    "st_won": "To'langan",
+    "cms_label": "Bosh sahifa sarlavhasi",
+    "cms_sub_label": "Kichik sarlavha",
+    "cms_preview": "Jonli ko'rinish",
+    "cms_publish": "E'lon qilish",
+    "cms_view": "Saytni ko'rish",
+    "set_hint": "Kanalni o'chiring va ariza yuboring — u yerga bormaydi.",
+    "d_empty": "Hali buyurtma yo'q — yuqorida test to'lov qiling.",
+    "mini_cta": "Narxni hisoblash",
+    "engx_kicker": "06 — Texnik sifat",
+    "engx_title": "Shunchalik tez, <em>Google ham sezadi.</em>",
+    "engx_sub": "Server tomonda render qilinadigan Next.js, SEO tayyor tuzilma, Adapter pattern asosidagi to'lov qatlami va sizga tegishli ma'lumotlar bazasi. Bu sahifani PageSpeed'da o'zingiz tekshiring.",
+    "engx_check": "PageSpeed'da tekshirish →",
+    "engx_adapter": "Adapter · 1 interfeys, istalgan shlyuz",
+    "g_perf": "Tezlik",
+    "g_a11y": "Qulaylik",
+    "g_bp": "Amaliyot",
+    "g_seo": "SEO",
+    "proc_kicker": "07 — Jarayon",
+    "proc_title": "Topshiriqdan ishga tushirishgacha <em>14 kun.</em>",
+    "price_kicker": "08 — Paketlar",
+    "price_title": "Fiverr'dagi <em>paketlarim bilan bir xil.</em>",
+    "price_sub": "Aniq hajm, qat'iy narx — sizning valyutangizda. Fiverr orqali xavfsiz buyurtma.",
+    "price_from": "dan",
+    "price_btn": "Fiverr'da buyurtma",
+    "price_pop": "Eng ommabop",
+    "price_delivery": "Muddat",
+    "price_rev": "Tuzatishlar",
+    "days": "kun",
+    "unlimited": "Cheksiz",
+    "faq_title": "Biznes egalari <em>beradigan savollar.</em>",
+    "foot_title": "Raqobatchilarda — “Bog'lanish” formasi. <em>Sizda esa — dvigatel.</em>",
+    "foot_btn": "Fiverr'da boshlash",
+    "foot_msg": "Avval sinov arizasi yuborish",
+    "foot_copy": "© 2026 Chameleon Engine · Sotadigan veb-ilovalar",
+    "status_online": "Dvigatel onlayn",
+    "status_leads": "ariza",
+    "status_cap": "tushum",
+    "engx_measured": "Lighthouse · production build",
+    "pay_note": "Bu yerda haqiqiy to'lov o'tadigani: Stripe (test rejim). Qolgan tizimlar sinov rejimida ko'rsatilgan va har bir loyihada sizning merchant akkauntingiz bilan ulanadi.",
+    "price_terms_title": "Nima kiradi va nima kirmaydi",
+    "price_extras_title": "Ommabop qo'shimchalar",
+    "foot_privacy": "Maxfiylik",
+    "foot_terms": "Shartlar"
+  },
+  "pains": [
+    {
+      "t": "“O'lik” trafik",
+      "o": "Oddiy “Bog'lanish” formasi. Mijoz javob kutib soviydi va boshqasidan oladi.",
+      "n": "Interaktiv kalkulyator + darhol bron. Mijoz narxni hisoblaydi va 30 soniyada buyurtma beradi."
+    },
+    {
+      "t": "Qo'l mehnati",
+      "o": "Arizalar emailga tushadi, egasi ularni qo'lda saralab soatlab vaqt yo'qotadi.",
+      "n": "Har bir ariza saqlanadi, AI baholaydi va Telegram, Slack yoki Zapier orqali CRMga 2 soniyada yuboriladi."
+    },
+    {
+      "t": "To'lovdagi uzilish",
+      "o": "To'lov yo'q yoki bitta noqulay tizim. Mijoz kunlab invoys kutadi.",
+      "n": "Bir klikda avans yoki to'liq to'lov, hududga mos tizimlar va avtomatik PDF invoys."
+    },
+    {
+      "t": "Tasavvur qilish qiyin",
+      "o": "Rezyume ko'rsatadi: “Men React bilaman”. Egasiga kod emas, natija kerak.",
+      "n": "Sohaga moslashuvchi jonli demo. Egasi o'z dvigatelini hozirning o'zida ishlayotganini ko'radi."
+    }
+  ],
+  "process": [
+    {
+      "d": "1-kun",
+      "t": "Tanishuv qo'ng'irog'i",
+      "p": "Voronka, narx mantig'i va arizalar qayerda yo'qolayotganini aniqlaymiz."
+    },
+    {
+      "d": "2–3-kun",
+      "t": "Dvigatel loyihasi",
+      "p": "Bosiladigan prototip, kalkulyator formulalari va integratsiya xaritasi — koddan oldin."
+    },
+    {
+      "d": "4–11-kun",
+      "t": "Qurish va ulash",
+      "p": "Next.js ilova, to'lovlar, CRM/Telegram bot va admin panel. Test havola har kuni yangilanadi."
+    },
+    {
+      "d": "12–14-kun",
+      "t": "Ishga tushirish",
+      "p": "Vercel'da ishga tushirish, video qo'llanma, hujjatlar va 30 kunlik yordam."
+    }
+  ],
+  "plans": [
+    {
+      "tag": "Gig #1 · Boshlang'ich",
+      "name": "Starter Conversion Page",
+      "desc": "Bitta taklif uchun sotuvchi sahifa.",
+      "f": [
+        "Yuqori konversiyali landing",
+        "Interaktiv narx kalkulyatori",
+        "Arizalar → Telegram / Slack / webhook",
+        "Mobilga mos, 95+ PageSpeed",
+        "1 til, asosiy SEO"
+      ]
+    },
+    {
+      "tag": "Gig #2 · Standart",
+      "name": "Business Growth Engine",
+      "desc": "Ushbu sahifadagi hamma narsa — biznesingizga moslab.",
+      "f": [
+        "Starter'dagi hammasi",
+        "Bron yoki mahsulot konfiguratori",
+        "1 ta to'lov tizimi (Stripe, PayPal, Payme, Click…)",
+        "Telegram / Slack / Zapier + AI ariza bahosi",
+        "Admin panel va CMS",
+        "3 tagacha til va valyuta"
+      ]
+    },
+    {
+      "tag": "Gig #3 · Premium",
+      "name": "Full Custom Ecosystem",
+      "desc": "SaaS, mijoz kabineti va murakkab avtomatlashtirish.",
+      "f": [
+        "Growth'dagi hammasi",
+        "Mijoz kabineti va akkauntlar",
+        "Obuna va takroriy invoyslar",
+        "Maxsus API / bot / AI integratsiyalar",
+        "Analitika va rollar",
+        "30 kunlik ustuvor yordam"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Boshqarish uchun kod bilish kerakmi?",
+      "a": "Yo'q. Narxlar, matnlar, bronlar va arizalar — hammasi siz ko'rgan admin panelda. Video qo'llanma ham beriladi."
+    },
+    {
+      "q": "Qaysi to'lov tizimlarini ulay olasiz?",
+      "a": "Stripe (kartalar, Apple Pay, Google Pay), PayPal, LemonSqueezy, kripto, YooKassa, Robokassa, CloudPayments, Payme, Click va Uzum Bank. Merchant akkauntni siz ochasiz va komissiyasini to'laysiz, men integratsiya qilaman. Payme, Click va Uzum uchun O'zbekistonda MChJ yoki YaTT kerak, tasdiq odatda 1–3 hafta."
+    },
+    {
+      "q": "Sayt mening tilim va valyutamda ishlaydimi?",
+      "a": "Ha. Barcha matnlar tarjima fayllarida (EN/RU/UZ va boshqalar) va har bir bozorga moslashtirilgan. Narxlar avtomatik konvertatsiya qilinadi."
+    },
+    {
+      "q": "Ishga tushgandan keyin nima bo'ladi?",
+      "a": "30 kunlik yordam, hujjatlar va kod hamda akkauntlar 100% sizniki. Xohlasangiz — oylik qo'llab-quvvatlash."
+    }
+  ],
+  "industries": {
+    "service": {
+      "name": "Xizmat va agentlik",
+      "short": "Konsalting, huquq, klinika, ta'lim — bron va avans",
+      "headline": "30 soniyada konsultatsiyaga yoziling.",
+      "sub": "Vaqtni tanlang, narxni ko'ring, avans bilan band qiling.",
+      "cards": [
+        "Onlayn bron",
+        "Avans",
+        "AI eslatmalar"
+      ],
+      "events": [
+        "Yangi bron · Sara K. · 60 daqiqa strategiya",
+        "Avans to'landi · {amount} Apple Pay orqali",
+        "AI eslatma · kelmaslik xavfi −38%",
+        "#A-1043 invoys avtomatik yaratildi",
+        "Kalendar · Pay 14:30 tasdiqlandi"
+      ],
+      "depLabel": "Avans hozir (30%)",
+      "fields": {
+        "svc": {
+          "label": "Xizmat",
+          "opts": [
+            "Konsultatsiya",
+            "Strategik sessiya",
+            "Ekspert audit"
+          ]
+        },
+        "hours": {
+          "label": "Soat",
+          "unit": "soat"
+        },
+        "add": {
+          "label": "Qo'shimchalar",
+          "opts": [
+            "Sessiya yozuvi",
+            "Yozma reja",
+            "Shoshilinch (48 soat)"
+          ]
+        }
+      }
+    },
+    "production": {
+      "name": "Ishlab chiqarish va savdo",
+      "short": "Mebel, qurilish, buyurtma asosida — konfigurator va savatcha",
+      "headline": "Shkafingizni loyihalang — narxni darhol ko'ring.",
+      "sub": "O'lcham, material, furnitura — bir daqiqada buyurtma.",
+      "cards": [
+        "Konfigurator",
+        "Savatcha va to'lov",
+        "Sexga buyurtma"
+      ],
+      "events": [
+        "Hisob · yong'oq shkaf 240×220",
+        "Buyurtma to'landi · {amount} Stripe orqali",
+        "Sex uchun #OK-2291 buyurtma",
+        "Tashlangan savatcha qaytdi · {amount}",
+        "Yetkazish belgilandi · Shan 10:00"
+      ],
+      "depLabel": "Avans hozir (30%)",
+      "fields": {
+        "mat": {
+          "label": "Material",
+          "opts": [
+            "Laminat",
+            "Eman",
+            "Yong'oq"
+          ]
+        },
+        "w": {
+          "label": "Eni",
+          "unit": "sm"
+        },
+        "h": {
+          "label": "Balandligi",
+          "unit": "sm"
+        },
+        "add": {
+          "label": "Furnitura va xizmat",
+          "opts": [
+            "Yumshoq yopilish",
+            "LED yoritish",
+            "Yetkazish va yig'ish"
+          ]
+        }
+      }
+    },
+    "logistics": {
+      "name": "B2B va logistika",
+      "short": "Yuk tashish, ulgurji — tarif kalkulyatori va kuzatuv",
+      "headline": "Yuk tarifi — darhol. Mashina — bir klikda.",
+      "sub": "Masofa, og'irlik, rejim — jonli narx va GPS kuzatuv.",
+      "cards": [
+        "Tarif kalkulyatori",
+        "Mijoz kabineti",
+        "Yuk kuzatuvi"
+      ],
+      "events": [
+        "Hisob · Toshkent → Olmaota · 8 t",
+        "Yuk rasmiylashtirildi · #NB-55812 · {amount}",
+        "Holat: yo'lda · yetib kelish 14:20",
+        "Haydovchi biriktirildi · Volvo FH16",
+        "Yetkazish imzolandi · #NB-55790"
+      ],
+      "depLabel": "Bron to'lovi (20%)",
+      "fields": {
+        "mode": {
+          "label": "Rejim",
+          "opts": [
+            "Standart",
+            "Ekspress",
+            "Muzlatgich"
+          ]
+        },
+        "dist": {
+          "label": "Masofa",
+          "unit": "km"
+        },
+        "wt": {
+          "label": "Og'irlik",
+          "unit": "t"
+        },
+        "add": {
+          "label": "Qo'shimcha",
+          "opts": [
+            "Yuk sug'urtasi",
+            "Jonli GPS havola",
+            "Yuklovchilar"
+          ]
+        }
+      }
+    },
+    "saas": {
+      "name": "SaaS va AI",
+      "short": "Startaplar, raqamli mahsulot — obuna, API, analitika",
+      "headline": "Jamoangiz haqiqatan ochadigan analitika.",
+      "sub": "Tarifni tanlang, o'rinlarni qo'shing — 20 soniyada sinov.",
+      "cards": [
+        "Obunalar",
+        "API va webhook",
+        "Analitika"
+      ],
+      "events": [
+        "Yangi sinov · Growth · 25 o'rin",
+        "Obuna uzaytirildi · {amount}/oy",
+        "API kalit berildi · webhook tasdiqlandi",
+        "AI: ketish xavfi · Acme Ltd",
+        "Yangilash · Starter → Scale · +{amount}"
+      ],
+      "depLabel": "Bugun to'lanadi",
+      "fields": {
+        "plan": {
+          "label": "Tarif",
+          "opts": [
+            "Starter",
+            "Growth",
+            "Scale"
+          ]
+        },
+        "bill": {
+          "label": "To'lov davri",
+          "opts": [
+            "Oylik",
+            "Yillik"
+          ]
+        },
+        "seats": {
+          "label": "O'rinlar",
+          "unit": "o'rin"
+        },
+        "add": {
+          "label": "Qo'shimchalar",
+          "opts": [
+            "API ruxsati",
+            "AI yordamchi",
+            "SSO / SAML"
+          ]
+        }
+      }
+    }
+  },
+  "misc": {
+    "modes": {
+      "card": "Karta",
+      "wallet": "Hamyon",
+      "phone": "Ilova",
+      "crypto": "Kripto"
+    },
+    "sources": {
+      "Calculator": "Kalkulyator",
+      "Booking": "Bron",
+      "Google Ads": "Google Ads",
+      "Instagram": "Instagram",
+      "Telegram": "Telegram",
+      "Referral": "Tavsiya",
+      "Website form": "Sayt formasi"
+    },
+    "unitNotes": {
+      "h": "/soat",
+      "m2": "/m²",
+      "seat": "/o'rin"
+    },
+    "perMonth": "/oy",
+    "hoursUnit": "soat",
+    "sampleMsg": "Narxni tez bilishim kerak — shu hafta buyurtma beramiz.",
+    "owner": "Egasi",
+    "langName": "O'zbekcha"
+  },
+  "auth": {
+    "login_title": "Xush kelibsiz",
+    "login_sub": "Boshqaruv paneliga kiring.",
+    "signup_title": "Dvigatelingizni ishga tushiring",
+    "signup_sub": "Bepul akkaunt. Arizalar, buyurtmalar va integratsiyalar bir joyda.",
+    "email": "Email",
+    "password": "Parol",
+    "name": "Ismingiz",
+    "business": "Biznes nomi",
+    "industry": "Soha",
+    "password_hint": "Kamida 8 belgi, harf va raqam bilan.",
+    "login_btn": "Kirish",
+    "signup_btn": "Akkaunt yaratish",
+    "pending": "Kuting…",
+    "no_account": "Akkauntingiz yo'qmi?",
+    "have_account": "Akkauntingiz bormi?",
+    "to_signup": "Ro'yxatdan o'tish",
+    "to_login": "Kirish",
+    "err_invalid": "Email yoki parol noto'g'ri.",
+    "err_rate": "Urinishlar juda ko'p. 15 daqiqadan so'ng qayta urining.",
+    "err_email": "To'g'ri email kiriting.",
+    "err_password": "Parol: kamida 8 belgi, harf va raqam.",
+    "err_name": "Ism 2–60 belgidan iborat bo'lsin.",
+    "err_business": "Biznes nomi 2–80 belgi bo'lsin.",
+    "err_exists": "Bu email bilan akkaunt allaqachon mavjud.",
+    "err_generic": "Xatolik yuz berdi. Qayta urinib ko'ring.",
+    "side_kicker": "Chameleon Engine · Panel",
+    "side_title": "24/7 daromad dvigatelingiz — <em>bitta ekranda.</em>",
+    "side_1": "Saytdagi arizalar shu yerga tushadi — AI baholaydi",
+    "side_2": "Telegram, Slack yoki Zapier orqali istalgan ilovaga darhol xabar",
+    "side_3": "Test to'lovlar, invoyslar va CSV eksport",
+    "secure_note": "Parollar scrypt bilan · httpOnly sessiya · urinishlar cheklangan",
+    "back_home": "← Saytga qaytish",
+    "nav_login": "Kirish",
+    "nav_signup": "Ro'yxatdan o'tish",
+    "nav_dashboard": "Kabinet",
+    "logout": "Chiqish",
+    "err_terms": "Shartlar va maxfiylik siyosatini qabul qiling.",
+    "terms_agree": "<terms>Foydalanish shartlari</terms> va <privacy>Maxfiylik siyosati</privacy>ga roziman"
+  },
+  "app": {
+    "overview": "Umumiy",
+    "leads": "Arizalar",
+    "orders": "Buyurtmalar",
+    "settings": "Sozlamalar",
+    "greeting": "Salom, {name}",
+    "overview_sub": "Bazangizdagi jonli ma'lumotlar — so'nggi 30 kun.",
+    "kpi_revenue": "Tushum (30 kun)",
+    "kpi_leads": "Arizalar (30 kun)",
+    "kpi_win": "Sotuvga aylanish",
+    "kpi_score": "O'rtacha AI baho",
+    "kpi_aov": "O'rtacha chek",
+    "chart_title": "Tushum — so'nggi 30 kun",
+    "recent_leads": "So'nggi arizalar",
+    "view_all": "Hammasi →",
+    "empty_leads": "Hali ariza yo'q. Saytdagi formadan yoki API orqali yuboring.",
+    "empty_orders": "Hali buyurtma yo'q. Saytda test to'lov qiling.",
+    "getting_started": "Boshlash",
+    "step_telegram": "Telegram, Slack yoki webhook ulang",
+    "step_lead": "Sinov arizasini yuboring",
+    "step_payment": "Test to'lov qiling",
+    "step_key": "Endpointni saytingizga ulang",
+    "endpoint_title": "Ariza qabul qiluvchi endpoint",
+    "endpoint_sub": "Istalgan sayt, forma yoki botdan JSON yuboring.",
+    "search_ph": "Ism, email, matn bo'yicha qidirish…",
+    "all": "Hammasi",
+    "export_csv": "CSV eksport",
+    "th_name": "Ism",
+    "th_email": "Email",
+    "th_budget": "Budjet",
+    "th_score": "AI",
+    "th_intent": "Niyat",
+    "th_status": "Holat",
+    "th_date": "Sana",
+    "th_source": "Manba",
+    "th_desc": "Tavsif",
+    "th_gateway": "Shlyuz",
+    "th_amount": "Summa",
+    "th_mode": "Rejim",
+    "status_new": "Yangi",
+    "status_qual": "Saralangan",
+    "status_won": "Sotildi",
+    "status_lost": "Yo'qotildi",
+    "delete": "O'chirish",
+    "mode_test": "Test",
+    "mode_live": "Jonli",
+    "profile": "Biznes profili",
+    "language": "Til",
+    "save": "Saqlash",
+    "saved": "Saqlandi ✓",
+    "telegram": "Telegram bot",
+    "telegram_sub": "@BotFather'da bot yarating va tokenni kiriting. Botga /start yozing va chat ID'ni kiriting (@userinfobot orqali bilasiz).",
+    "tg_token": "Bot tokeni",
+    "tg_chat": "Chat ID",
+    "channels": "Xabar kanallari",
+    "channels_sub": "Yangi arizalar qayerga yuborilsin.",
+    "api_key": "Ochiq API kalit",
+    "api_key_sub": "Boshqa saytlardan ariza yuborganda akkauntingizni aniqlaydi. Formaga joylash xavfsiz.",
+    "rotate": "Kalitni yangilash",
+    "security": "Xavfsizlik",
+    "current_pw": "Joriy parol",
+    "new_pw": "Yangi parol",
+    "change_pw": "Parolni o'zgartirish",
+    "pw_changed": "Parol o'zgardi. Boshqa sessiyalar yopildi.",
+    "err_current": "Joriy parol noto'g'ri.",
+    "sessions_active": "Faol sessiyalar: {n}",
+    "logout_others": "Boshqa sessiyalarni yopish",
+    "others_out": "Boshqa sessiyalar yopildi.",
+    "danger": "Xavfli hudud",
+    "delete_sub": "Akkaunt, arizalar, buyurtmalar va integratsiyalar butunlay o'chiriladi.",
+    "type_email": "Tasdiqlash uchun emailingizni yozing",
+    "delete_btn": "Akkauntni butunlay o'chirish",
+    "err_confirm": "Email mos kelmadi.",
+    "back_site": "← Saytga",
+    "landing_cta": "O'z kabinetingizni ochish →",
+    "landing_cta_sub": "Bepul akkaunt yarating — shu sahifadagi barcha ariza va to'lovlar unda saqlanadi.",
+    "landing_logged": "{name} sifatida kirdingiz — ariza va to'lovlar akkauntingizga saqlanadi.",
+    "saved_db": "Kabinetga saqlandi",
+    "saved_demo": "Demo'ga saqlandi",
+    "connected": "ulangan",
+    "not_connected": "ulanmagan",
+    "remove": "O'chirish",
+    "send_test": "Sinov yuborish",
+    "secret_set": "Saqlangan (shifrlangan). O'zgartirmaslik uchun bo'sh qoldiring.",
+    "ch_ok": "Sinov yetkazildi ✓",
+    "ch_fail": "Xato: {error}",
+    "ch_missing": "Avval ulanishni saqlang.",
+    "slack_sub": "Slack'da: Apps → Incoming Webhooks → kanalni tanlang va URL'ni shu yerga qo'ying. Bepul.",
+    "slack_url": "Incoming webhook URL",
+    "webhook": "Webhook (Zapier / Make)",
+    "webhook_sub": "Har bir ariza va to'lov shu URL'ga JSON bo'lib yuboriladi. Zapier'da “Webhooks by Zapier → Catch Hook” orqali uni Google Sheets, HubSpot, Gmail va 6000+ ilovaga uzatasiz.",
+    "webhook_url": "Webhook URL",
+    "webhook_secret": "Imzo siri",
+    "webhook_secret_hint": "Har bir so'rovda x-chameleon-signature bor: shu sir bilan “timestamp.body” ning HMAC-SHA256 qiymati.",
+    "copy": "Nusxalash",
+    "st_sent": "yetkazildi",
+    "st_simulated": "demo — kabinetda ulang",
+    "st_disabled": "o'chirilgan",
+    "st_not_configured": "hali ulanmagan"
+  },
+  "priceTerms": [
+    "Uchinchi tomon xarajatlarini mijoz to'laydi: to'lov tizimi komissiyalari, hosting, SMS / WhatsApp, Zapier tariflari.",
+    "Merchant akkauntlarni (Stripe, PayPal, Payme, Click…) mijoz ochadi va tasdiqlatadi — men ularni ulayman.",
+    "Provayder tasdig'ini kutish vaqti (Payme / Click shartnomasi, Twilio yoki Meta tekshiruvi) muddatga kirmaydi.",
+    "Kod, ma'lumotlar va barcha akkauntlar 100% sizniki."
+  ],
+  "priceExtras": [
+    {
+      "usd": 150,
+      "l": "Qo'shimcha to'lov tizimi (Stripe, PayPal)"
+    },
+    {
+      "usd": 250,
+      "l": "Payme yoki Click integratsiyasi"
+    },
+    {
+      "usd": 150,
+      "l": "CRM integratsiyasi (amoCRM, HubSpot, Pipedrive)"
+    },
+    {
+      "usd": 200,
+      "l": "SMS yoki WhatsApp xabarnomalari"
+    },
+    {
+      "usd": 60,
+      "l": "Qo'shimcha til"
+    }
+  ],
+  "legal": {
+    "privacy": {
+      "title": "Maxfiylik siyosati",
+      "intro": "Chameleon Engine — namoyish uchun mahsulot. Bu sahifada u nimani va nima uchun saqlashi aniq yozilgan.",
+      "sections": [
+        {
+          "h": "Nimani saqlaymiz",
+          "p": "Akkaunt: ism, biznes nomi, email, soha, til va parolning scrypt hashi (parolning o'zi saqlanmaydi). Siz yaratgan arizalar va test buyurtmalar. Integratsiya sozlamalari — bot tokenlari va webhook URL'lari AES-256-GCM bilan shifrlanadi."
+        },
+        {
+          "h": "Cookie fayllar",
+          "p": "Akkauntda qolish uchun bitta zarur httpOnly sessiya cookie va til/valyuta tanlovi (localStorage). Analitika, reklama yoki kuzatuv cookie'lari yo'q."
+        },
+        {
+          "h": "Texnik ma'lumotlar",
+          "p": "IP manzil va brauzer nomi sessiya bilan saqlanadi va parol tanlashdan himoya uchun ishlatiladi. Bu yozuvlar 24 soatdan keyin o'chiriladi."
+        },
+        {
+          "h": "Ma'lumotlarni kim qayta ishlaydi",
+          "p": "Hosting (Vercel) va ma'lumotlar bazasi (Turso). Telegram, Slack yoki webhook'ingiz ariza ma'lumotlarini faqat siz ulasangiz oladi. Demodagi to'lovlar test — karta ma'lumotlari yig'ilmaydi."
+        },
+        {
+          "h": "Saqlash muddati va huquqlaringiz",
+          "p": "Anonim demo arizalar va buyurtmalar 7 kundan keyin o'chiriladi. Akkaunt ma'lumotlari siz o'chirmaguningizcha saqlanadi: Kabinet → Sozlamalar → Xavfli hudud akkaunt va unga bog'liq hamma narsani darhol o'chiradi. Arizalarni istalgan vaqtda CSV qilib yuklab olishingiz mumkin."
+        },
+        {
+          "h": "Aloqa",
+          "p": "Ma'lumotlaringiz bo'yicha savollar: bosh sahifa pastidagi havola orqali Fiverr'da yozing."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Foydalanish shartlari",
+      "intro": "Akkaunt yaratish orqali siz ushbu qisqa shartlarni qabul qilasiz.",
+      "sections": [
+        {
+          "h": "Namoyish xizmati",
+          "p": "Chameleon Engine sotuvga yo'naltirilgan biznes ilova imkoniyatlarini ko'rsatadi. Xizmat bepul, “boricha” taqdim etiladi, ishlash kafolatisiz; texnik ishlar paytida ma'lumotlar tozalanishi mumkin."
+        },
+        {
+          "h": "Faqat test to'lovlar",
+          "p": "Barcha to'lovlar test rejimida o'tadi. Haqiqiy pul yechilmaydi va sayt orqali hech narsa sotilmaydi."
+        },
+        {
+          "h": "Ruxsat etilgan foydalanish",
+          "p": "Ariza API'si va xabarnomalarni spam, ruxsatsiz ma'lumot yig'ish yoki boshqa xizmatlarga hujum uchun ishlatmang. Bunday akkauntlar o'chiriladi."
+        },
+        {
+          "h": "Sizning kontentingiz",
+          "p": "Kiritgan hamma narsangiz sizniki bo'lib qoladi. Arizalarni yuklab olishingiz va akkauntni istalgan vaqtda o'chirishingiz mumkin."
+        },
+        {
+          "h": "Ishga buyurtma berish",
+          "p": "Maxsus ishlab chiqish Fiverr orqali buyurtma qilinadi va to'lanadi hamda Fiverr qoidalariga bo'ysunadi."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,716 @@
+{
+  "ui": {
+    "nav_calc": "Calculator",
+    "nav_pay": "Payments",
+    "nav_auto": "Automation",
+    "nav_dash": "Dashboard",
+    "nav_price": "Pricing",
+    "nav_cta": "Hire on Fiverr",
+    "hero_eyebrow": "Live product demo — try everything below",
+    "hero_title": "Don’t just launch a website. <em>Deploy a 24/7 revenue</em> & automation engine.",
+    "hero_sub": "Pick your industry below. The whole page re-wires itself — calculator, checkout, lead automation and admin panel — into the exact engine your business would get.",
+    "hero_pick": "Select your business type",
+    "hero_cta1": "Test-drive the engine",
+    "hero_cta2": "See packages",
+    "stat1_l": "languages · 4 currencies, switched without reload",
+    "stat2_l": "from form to Slack, Telegram or Zapier",
+    "stat3_l": "code & data ownership — no lock-in",
+    "stat4_l": "days from brief to launch",
+    "eng_rev": "Revenue this month",
+    "eng_feed": "Real-time events",
+    "pains_kicker": "01 — The gap",
+    "pains_title": "Most websites look nice — <em>and quietly leak money.</em>",
+    "pains_sub": "Business owners in the US, UK and EU don't pay for “pretty”. They pay for ROI and automation. Here's where typical freelance sites fail them.",
+    "pain_old": "Typical freelancer",
+    "pain_new": "This engine",
+    "calc_kicker": "02 — Smart configurator",
+    "calc_title": "Your customers <em>price it themselves.</em>",
+    "calc_sub": "Left: what your customer sees and plays with. Right: what that means for your bank account — live.",
+    "calc_customer": "Customer view",
+    "calc_owner": "Owner's lens — ROI",
+    "calc_total": "Instant quote",
+    "calc_book": "Book & pay deposit",
+    "calc_visitors": "Monthly website visitors",
+    "calc_extra": "Extra revenue / month",
+    "calc_hours": "Hours saved / month",
+    "calc_payback": "Project pays back in",
+    "calc_days": "days",
+    "calc_static": "Static site",
+    "calc_engine": "This engine",
+    "calc_note": "Model: static site converts 1.1% of visitors, the engine 3.2%; 15% of leads close at the quote above; 20 min of manual handling saved per lead. Payback is for the Business Growth Engine package.",
+    "calc_custom": "Want this exact calculator for your business?",
+    "calc_custom_btn": "Customize it →",
+    "pay_kicker": "03 — Payment sandbox",
+    "pay_title": "Get paid <em>the moment they say yes.</em>",
+    "pay_sub": "Run a $1.00 test transaction through a real checkout flow. No money moves — but the flow, the receipt and the PDF invoice are the real thing.",
+    "pay_region_global": "Global",
+    "pay_region_cis": "Russia & CIS",
+    "pay_region_uz": "Uzbekistan",
+    "pay_f1": "Webhooks signed & verified",
+    "pay_f2": "Auto PDF invoice per payment",
+    "pay_f3": "Deposits, full pay & subscriptions",
+    "pay_f4": "Multi-currency, region-aware",
+    "pay_testmode": "Test mode · no real charge",
+    "pay_item": "Demo transaction",
+    "pay_item_sub": "Sandbox · instant receipt",
+    "pay_dep_sub": "Deposit from your configurator",
+    "pay_via": "Paying with",
+    "pay_card": "Card number",
+    "pay_exp": "Expiry",
+    "pay_phone": "Phone linked to wallet",
+    "pay_sms": "SMS code is auto-filled in sandbox",
+    "pay_wallet_note": "Biometric confirmation is simulated",
+    "pay_crypto_note": "Send exactly this amount (TRC-20)",
+    "pay_btn": "Pay",
+    "pay_proc1": "Creating payment intent",
+    "pay_proc2": "Secure verification (3-D Secure)",
+    "pay_proc3": "Confirming with the gateway",
+    "pay_proc4": "Generating invoice & notifying CRM",
+    "pay_ok": "Payment succeeded",
+    "pay_ok_sub": "Webhook received · order synced to dashboard",
+    "pay_r_id": "Receipt",
+    "pay_r_gw": "Gateway",
+    "pay_r_amt": "Amount",
+    "pay_r_date": "Date",
+    "pay_pdf": "Download PDF invoice",
+    "pay_again": "Again",
+    "pay_secure": "Encrypted · PCI-DSS handled by the gateway",
+    "auto_kicker": "04 — 2-second lead bridge",
+    "auto_title": "From form to your phone <em>in under 2 seconds.</em>",
+    "auto_sub": "Type a test lead and hit Simulate. It's stored in the database, scored by AI and sent to Slack, Telegram or any app via Zapier — for real, once you connect them in your dashboard.",
+    "auto_form": "Your website form",
+    "f_name": "Name",
+    "f_budget": "Budget",
+    "f_msg": "Message",
+    "f_btn": "Simulate lead",
+    "st1": "Lead captured",
+    "st2": "AI qualification",
+    "st3": "Instant dispatch",
+    "log_idle": "$ waiting for incoming lead…",
+    "tg_online": "bot · online",
+    "tg_hello": "Bot connected. New leads will appear here instantly.",
+    "tg_new": "New lead",
+    "tg_score": "AI score",
+    "tg_open": "Open in CRM",
+    "tg_reply": "Reply",
+    "tg_paid": "Payment received",
+    "intent_buy": "Ready to buy",
+    "intent_price": "Pricing request",
+    "intent_disc": "Discovery",
+    "toast_lead": "Lead dispatched in",
+    "toast_lead_sub": "Check the Admin view — it's already there.",
+    "toast_pay": "Test payment succeeded",
+    "toast_pay_sub": "Order added to the dashboard revenue.",
+    "toast_cms": "Published",
+    "toast_cms_sub": "Headline is live on the client view.",
+    "toast_book": "Deposit loaded into checkout",
+    "dash_kicker": "05 — Admin panel",
+    "dash_title": "Run it all from <em>one calm screen.</em>",
+    "dash_sub": "Leads and payments you made above have already landed here. Edit the headline in Content — the client site updates live.",
+    "dash_client": "Client view",
+    "dash_admin": "Switch to Admin view",
+    "d_overview": "Overview",
+    "d_leads": "Leads",
+    "d_orders": "Orders",
+    "d_cms": "Content",
+    "d_settings": "Integrations",
+    "d_hello": "Good morning",
+    "d_today": "Here's what the engine did while you slept.",
+    "k_rev": "Revenue (30d)",
+    "k_leads": "New leads",
+    "k_conv": "Conversion",
+    "k_aov": "Avg. order",
+    "d_chart": "Revenue — last 30 days",
+    "d_recent": "Latest leads",
+    "d_sources": "Top sources",
+    "th_name": "Name",
+    "th_source": "Source",
+    "th_score": "AI",
+    "th_status": "Status",
+    "th_amount": "Amount",
+    "th_gw": "Gateway",
+    "th_item": "Item",
+    "st_new": "New",
+    "st_qual": "Qualified",
+    "st_won": "Paid",
+    "cms_label": "Homepage headline",
+    "cms_sub_label": "Subheadline",
+    "cms_preview": "Live preview",
+    "cms_publish": "Publish",
+    "cms_view": "View site",
+    "set_hint": "Toggle a channel off, then simulate a lead — it won't be dispatched there.",
+    "d_empty": "No orders yet — run a test payment above.",
+    "mini_cta": "Get my quote",
+    "engx_kicker": "06 — Engineering",
+    "engx_title": "So fast, <em>Google notices.</em>",
+    "engx_sub": "Server-rendered Next.js, SEO-ready structure, a payment layer built on the adapter pattern and a database you own. Run the PageSpeed test on this page yourself.",
+    "engx_check": "Run a live PageSpeed test →",
+    "engx_adapter": "Adapter pattern · 1 interface, any gateway",
+    "g_perf": "Performance",
+    "g_a11y": "Accessibility",
+    "g_bp": "Best Practices",
+    "g_seo": "SEO",
+    "proc_kicker": "07 — Process",
+    "proc_title": "Brief to live engine <em>in 14 days.</em>",
+    "price_kicker": "08 — Packages",
+    "price_title": "The same packages as <em>my Fiverr gigs.</em>",
+    "price_sub": "Transparent scope, fixed price, shown in your currency. Order safely through Fiverr's escrow.",
+    "price_from": "from",
+    "price_btn": "Order on Fiverr",
+    "price_pop": "Most popular",
+    "price_delivery": "Delivery",
+    "price_rev": "Revisions",
+    "days": "days",
+    "unlimited": "Unlimited",
+    "faq_title": "Questions owners <em>actually ask.</em>",
+    "foot_title": "Your competitors still have a contact form. <em>You'll have an engine.</em>",
+    "foot_btn": "Start on Fiverr",
+    "foot_msg": "Send a test lead first",
+    "foot_copy": "© 2026 Chameleon Engine · Conversion-engineered web apps",
+    "status_online": "Engine online",
+    "status_leads": "leads",
+    "status_cap": "captured",
+    "engx_measured": "Lighthouse · production build",
+    "pay_note": "Charged for real here: Stripe (test mode). Other gateways run in the sandbox and are connected per project with your own merchant account.",
+    "price_terms_title": "What's included — and what isn't",
+    "price_extras_title": "Popular extras",
+    "foot_privacy": "Privacy",
+    "foot_terms": "Terms"
+  },
+  "pains": [
+    {
+      "t": "Dead traffic",
+      "o": "A static “Contact us” form. Visitors wait for a reply, go cold and buy elsewhere.",
+      "n": "Interactive quote calculator + instant booking. They price it and order in 30 seconds."
+    },
+    {
+      "t": "Manual bottleneck",
+      "o": "Leads land in an inbox. The owner sorts them by hand and loses hours every week.",
+      "n": "Every lead is saved, AI-scored and pushed to Slack, Telegram or your CRM via Zapier — in under 2 seconds."
+    },
+    {
+      "t": "Payment friction",
+      "o": "No checkout, or one clunky gateway. The client waits days for an invoice.",
+      "n": "One-click deposit or full checkout, region-aware gateways and auto PDF invoices."
+    },
+    {
+      "t": "Can't picture it",
+      "o": "Shows a résumé: “I know React.” The owner needs results, not a tech stack.",
+      "n": "A live, industry-switching demo. The owner sees their own engine running — right now."
+    }
+  ],
+  "process": [
+    {
+      "d": "Day 1",
+      "t": "Discovery call",
+      "p": "We map your funnel, pricing logic and where leads currently leak."
+    },
+    {
+      "d": "Day 2–3",
+      "t": "Engine blueprint",
+      "p": "Clickable prototype, calculator formulas and integration map — approved before code."
+    },
+    {
+      "d": "Day 4–11",
+      "t": "Build & integrate",
+      "p": "Next.js app, payments, CRM/Telegram bot and admin panel. Staging link updated daily."
+    },
+    {
+      "d": "Day 12–14",
+      "t": "Launch & handover",
+      "p": "Go-live on Vercel, video walkthrough, docs and 30 days of support."
+    }
+  ],
+  "plans": [
+    {
+      "tag": "Gig #1 · Basic",
+      "name": "Starter Conversion Page",
+      "desc": "A one-page sales machine for a single offer.",
+      "f": [
+        "High-converting landing page",
+        "Interactive price calculator",
+        "Lead alerts → Slack / Telegram / webhook",
+        "Mobile-first, 95+ PageSpeed",
+        "1 language, SEO basics"
+      ]
+    },
+    {
+      "tag": "Gig #2 · Standard",
+      "name": "Business Growth Engine",
+      "desc": "Everything on this page, tuned to your business.",
+      "f": [
+        "Everything in Starter",
+        "Booking or product configurator",
+        "1 payment gateway (Stripe, PayPal, Payme, Click…)",
+        "Slack / Telegram / Zapier alerts + AI lead scoring",
+        "Admin dashboard & CMS",
+        "Up to 3 languages & currencies"
+      ]
+    },
+    {
+      "tag": "Gig #3 · Premium",
+      "name": "Full Custom Ecosystem",
+      "desc": "SaaS, client portals and complex automation.",
+      "f": [
+        "Everything in Growth",
+        "Client portal & accounts",
+        "Subscriptions & recurring invoicing",
+        "Custom API / bot / AI integrations",
+        "Analytics & role-based admin",
+        "Priority support for 30 days"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "Do I need to know code to manage it?",
+      "a": "No. Prices, texts, bookings and leads are all managed from the admin panel you just tried. You get a recorded video walkthrough too."
+    },
+    {
+      "q": "Which payment systems can you connect?",
+      "a": "Stripe (cards, Apple Pay, Google Pay), PayPal, LemonSqueezy, crypto, YooKassa, Robokassa, CloudPayments, Payme, Click and Uzum Bank. You open the merchant account and pay its fees; I integrate it. Uzbek and Russian gateways need a local company and usually take 1–3 weeks to approve."
+    },
+    {
+      "q": "Will it work in my language and currency?",
+      "a": "Yes. Every text lives in translation files (EN/RU/UZ or any other), adapted to each market — not machine-translated. Prices convert on the fly."
+    },
+    {
+      "q": "What happens after launch?",
+      "a": "30 days of support, documentation, and you own 100% of the code and accounts. Optional monthly care plan for new features."
+    }
+  ],
+  "industries": {
+    "service": {
+      "name": "Service & Agency",
+      "short": "Consulting, legal, clinics, education — booking & deposits",
+      "headline": "Book a strategy call in 30 seconds.",
+      "sub": "Pick a time, see the price, secure it with a deposit.",
+      "cards": [
+        "Online booking",
+        "Deposits",
+        "AI reminders"
+      ],
+      "events": [
+        "New booking · Sarah K. · 60-min strategy",
+        "Deposit paid · {amount} via Apple Pay",
+        "AI reminder sent · no-show risk −38%",
+        "Invoice #A-1043 auto-generated",
+        "Calendar synced · Thu 14:30 confirmed"
+      ],
+      "depLabel": "Deposit now (30%)",
+      "fields": {
+        "svc": {
+          "label": "Service",
+          "opts": [
+            "Consultation",
+            "Strategy session",
+            "Expert audit"
+          ]
+        },
+        "hours": {
+          "label": "Hours",
+          "unit": "h"
+        },
+        "add": {
+          "label": "Add-ons",
+          "opts": [
+            "Session recording",
+            "Written action plan",
+            "Priority (48h)"
+          ]
+        }
+      }
+    },
+    "production": {
+      "name": "Custom Production & E-com",
+      "short": "Furniture, construction, made-to-order — configurator & cart",
+      "headline": "Design your wardrobe. See the price instantly.",
+      "sub": "Size, material, finish — order in under a minute.",
+      "cards": [
+        "3D-ready configurator",
+        "Cart & checkout",
+        "Production tickets"
+      ],
+      "events": [
+        "Quote configured · Walnut wardrobe 240×220",
+        "Order paid · {amount} via Stripe",
+        "Production ticket #OK-2291 created",
+        "Abandoned cart recovered · {amount}",
+        "Delivery slot booked · Sat 10:00"
+      ],
+      "depLabel": "Deposit now (30%)",
+      "fields": {
+        "mat": {
+          "label": "Material",
+          "opts": [
+            "Laminate",
+            "Oak",
+            "Walnut"
+          ]
+        },
+        "w": {
+          "label": "Width",
+          "unit": "cm"
+        },
+        "h": {
+          "label": "Height",
+          "unit": "cm"
+        },
+        "add": {
+          "label": "Hardware & service",
+          "opts": [
+            "Soft-close",
+            "LED lighting",
+            "Delivery & assembly"
+          ]
+        }
+      }
+    },
+    "logistics": {
+      "name": "B2B & Logistics",
+      "short": "Freight, dispatch, wholesale — rate calculator & tracking",
+      "headline": "Instant freight rates. Book a truck in one click.",
+      "sub": "Distance, weight, mode — live price and GPS tracking.",
+      "cards": [
+        "Rate calculator",
+        "Client cabinet",
+        "Live tracking"
+      ],
+      "events": [
+        "Rate quoted · Tashkent → Almaty · 8 t",
+        "Shipment booked · #NB-55812 · {amount}",
+        "Status: in transit · ETA 14:20",
+        "Driver assigned · Volvo FH16 · 01 A 777",
+        "Proof of delivery signed · #NB-55790"
+      ],
+      "depLabel": "Booking fee (20%)",
+      "fields": {
+        "mode": {
+          "label": "Mode",
+          "opts": [
+            "Standard",
+            "Express",
+            "Refrigerated"
+          ]
+        },
+        "dist": {
+          "label": "Distance",
+          "unit": "km"
+        },
+        "wt": {
+          "label": "Weight",
+          "unit": "t"
+        },
+        "add": {
+          "label": "Extras",
+          "opts": [
+            "Cargo insurance",
+            "Live GPS link",
+            "Loading crew"
+          ]
+        }
+      }
+    },
+    "saas": {
+      "name": "SaaS & AI Automation",
+      "short": "Startups, digital products — subscriptions, API & analytics",
+      "headline": "Analytics your whole team actually opens.",
+      "sub": "Pick a plan, add seats, start your trial in 20 seconds.",
+      "cards": [
+        "Subscriptions",
+        "API & webhooks",
+        "Usage analytics"
+      ],
+      "events": [
+        "New trial · Growth plan · 25 seats",
+        "Subscription renewed · {amount}/mo",
+        "API key issued · webhook verified",
+        "Churn risk flagged by AI · Acme Ltd",
+        "Upgrade · Starter → Scale · +{amount}"
+      ],
+      "depLabel": "Due today (1st month)",
+      "fields": {
+        "plan": {
+          "label": "Plan",
+          "opts": [
+            "Starter",
+            "Growth",
+            "Scale"
+          ]
+        },
+        "bill": {
+          "label": "Billing",
+          "opts": [
+            "Monthly",
+            "Annual"
+          ]
+        },
+        "seats": {
+          "label": "Seats",
+          "unit": "seats"
+        },
+        "add": {
+          "label": "Add-ons",
+          "opts": [
+            "API access",
+            "AI assistant",
+            "SSO / SAML"
+          ]
+        }
+      }
+    }
+  },
+  "misc": {
+    "modes": {
+      "card": "Card",
+      "wallet": "Wallet",
+      "phone": "Wallet app",
+      "crypto": "Crypto"
+    },
+    "sources": {
+      "Calculator": "Calculator",
+      "Booking": "Booking",
+      "Google Ads": "Google Ads",
+      "Instagram": "Instagram",
+      "Telegram": "Telegram",
+      "Referral": "Referral",
+      "Website form": "Website form"
+    },
+    "unitNotes": {
+      "h": "/h",
+      "m2": "/m²",
+      "seat": "/seat"
+    },
+    "perMonth": "/mo",
+    "hoursUnit": "h",
+    "sampleMsg": "Need a quote asap — ready to order this week.",
+    "owner": "Owner",
+    "langName": "English"
+  },
+  "auth": {
+    "login_title": "Welcome back",
+    "login_sub": "Log in to your engine dashboard.",
+    "signup_title": "Launch your engine",
+    "signup_sub": "Free account. Your leads, orders and integrations in one place.",
+    "email": "Email",
+    "password": "Password",
+    "name": "Your name",
+    "business": "Business name",
+    "industry": "Industry",
+    "password_hint": "At least 8 characters, with a letter and a number.",
+    "login_btn": "Log in",
+    "signup_btn": "Create account",
+    "pending": "Please wait…",
+    "no_account": "No account yet?",
+    "have_account": "Already have an account?",
+    "to_signup": "Sign up",
+    "to_login": "Log in",
+    "err_invalid": "Email or password is incorrect.",
+    "err_rate": "Too many attempts. Try again in 15 minutes.",
+    "err_email": "Enter a valid email.",
+    "err_password": "Password must be 8+ characters with a letter and a number.",
+    "err_name": "Name must be 2–60 characters.",
+    "err_business": "Business name must be 2–80 characters.",
+    "err_exists": "An account with this email already exists.",
+    "err_generic": "Something went wrong. Please try again.",
+    "side_kicker": "Chameleon Engine · Dashboard",
+    "side_title": "Your 24/7 revenue engine, <em>in one calm screen.</em>",
+    "side_1": "Leads from your site land here — scored by AI",
+    "side_2": "Instant alerts in Slack, Telegram or any app via Zapier",
+    "side_3": "Test payments, invoices and CSV export",
+    "secure_note": "Passwords hashed with scrypt · httpOnly session cookies · rate-limited login",
+    "back_home": "← Back to site",
+    "nav_login": "Log in",
+    "nav_signup": "Sign up free",
+    "nav_dashboard": "Dashboard",
+    "logout": "Log out",
+    "err_terms": "Please accept the Terms and Privacy Policy.",
+    "terms_agree": "I agree to the <terms>Terms</terms> and <privacy>Privacy Policy</privacy>"
+  },
+  "app": {
+    "overview": "Overview",
+    "leads": "Leads",
+    "orders": "Orders",
+    "settings": "Settings",
+    "greeting": "Hello, {name}",
+    "overview_sub": "Live data from your database — last 30 days.",
+    "kpi_revenue": "Revenue (30d)",
+    "kpi_leads": "Leads (30d)",
+    "kpi_win": "Win rate",
+    "kpi_score": "Avg. AI score",
+    "kpi_aov": "Avg. order",
+    "chart_title": "Revenue — last 30 days",
+    "recent_leads": "Latest leads",
+    "view_all": "View all →",
+    "empty_leads": "No leads yet. Send one from the landing page form or your API endpoint.",
+    "empty_orders": "No orders yet. Run a test payment on the landing page.",
+    "getting_started": "Get started",
+    "step_telegram": "Connect Slack, Telegram or a webhook",
+    "step_lead": "Send a test lead",
+    "step_payment": "Run a test payment",
+    "step_key": "Embed your capture endpoint",
+    "endpoint_title": "Your lead capture endpoint",
+    "endpoint_sub": "POST JSON from any website, form builder or bot.",
+    "search_ph": "Search name, email, message…",
+    "all": "All",
+    "export_csv": "Export CSV",
+    "th_name": "Name",
+    "th_email": "Email",
+    "th_budget": "Budget",
+    "th_score": "AI",
+    "th_intent": "Intent",
+    "th_status": "Status",
+    "th_date": "Date",
+    "th_source": "Source",
+    "th_desc": "Description",
+    "th_gateway": "Gateway",
+    "th_amount": "Amount",
+    "th_mode": "Mode",
+    "status_new": "New",
+    "status_qual": "Qualified",
+    "status_won": "Won",
+    "status_lost": "Lost",
+    "delete": "Delete",
+    "mode_test": "Test",
+    "mode_live": "Live",
+    "profile": "Business profile",
+    "language": "Preferred language",
+    "save": "Save changes",
+    "saved": "Saved ✓",
+    "telegram": "Telegram bot",
+    "telegram_sub": "Create a bot with @BotFather and paste its token. Send /start to your bot, then paste your chat ID (ask @userinfobot).",
+    "tg_token": "Bot token",
+    "tg_chat": "Chat ID",
+    "channels": "Notification channels",
+    "channels_sub": "Choose where new leads are dispatched.",
+    "api_key": "Public API key",
+    "api_key_sub": "Identifies your account when posting leads from other sites. Safe to embed in forms.",
+    "rotate": "Regenerate key",
+    "security": "Security",
+    "current_pw": "Current password",
+    "new_pw": "New password",
+    "change_pw": "Change password",
+    "pw_changed": "Password changed. Other sessions were signed out.",
+    "err_current": "Current password is incorrect.",
+    "sessions_active": "Active sessions: {n}",
+    "logout_others": "Sign out other sessions",
+    "others_out": "Other sessions signed out.",
+    "danger": "Danger zone",
+    "delete_sub": "Permanently deletes your account, leads, orders and integrations.",
+    "type_email": "Type your email to confirm",
+    "delete_btn": "Delete my account forever",
+    "err_confirm": "Email doesn't match.",
+    "back_site": "← Back to site",
+    "landing_cta": "Open your real dashboard →",
+    "landing_cta_sub": "Create a free account — every lead and payment you make on this page will be saved to it.",
+    "landing_logged": "Logged in as {name} — leads and payments on this page are saved to your account.",
+    "saved_db": "Saved to your dashboard",
+    "saved_demo": "Saved to the demo workspace",
+    "connected": "connected",
+    "not_connected": "not connected",
+    "remove": "Remove",
+    "send_test": "Send test",
+    "secret_set": "Saved (encrypted). Leave empty to keep it.",
+    "ch_ok": "Test delivered ✓",
+    "ch_fail": "Error: {error}",
+    "ch_missing": "Save the connection first.",
+    "slack_sub": "In Slack: Apps → Incoming Webhooks → add to a channel, then paste the webhook URL here. Free.",
+    "slack_url": "Incoming webhook URL",
+    "webhook": "Webhook (Zapier / Make)",
+    "webhook_sub": "Every new lead and payment is POSTed as JSON to this URL. In Zapier use “Webhooks by Zapier → Catch Hook” to forward it to Google Sheets, HubSpot, Gmail, SMS and 6000+ apps.",
+    "webhook_url": "Webhook URL",
+    "webhook_secret": "Signing secret",
+    "webhook_secret_hint": "Each request carries x-chameleon-signature = sha256 HMAC of “timestamp.body” with this secret.",
+    "copy": "Copy",
+    "st_sent": "delivered",
+    "st_simulated": "demo — connect it in your dashboard",
+    "st_disabled": "turned off",
+    "st_not_configured": "not connected yet"
+  },
+  "priceTerms": [
+    "Third-party fees are paid by the client: payment provider commissions, hosting, SMS / WhatsApp usage, Zapier plans.",
+    "Merchant accounts (Stripe, PayPal, Payme, Click…) are opened and verified by the client — I connect them.",
+    "Provider approval time (Payme / Click contracts, Twilio or Meta verification) isn't counted in delivery days.",
+    "You own 100% of the code, the data and every account."
+  ],
+  "priceExtras": [
+    {
+      "usd": 150,
+      "l": "Additional payment gateway (Stripe, PayPal)"
+    },
+    {
+      "usd": 250,
+      "l": "Payme or Click integration"
+    },
+    {
+      "usd": 150,
+      "l": "CRM integration (HubSpot, Pipedrive, amoCRM)"
+    },
+    {
+      "usd": 200,
+      "l": "SMS or WhatsApp alerts (Twilio / Meta)"
+    },
+    {
+      "usd": 60,
+      "l": "Extra language"
+    }
+  ],
+  "legal": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "intro": "Chameleon Engine is a demonstration product. This page explains exactly what it stores and why.",
+      "sections": [
+        {
+          "h": "What we store",
+          "p": "Account: name, business name, email, industry, language and a scrypt hash of your password (never the password itself). Leads and test orders you create. Integration settings — bot tokens and webhook URLs are encrypted with AES-256-GCM."
+        },
+        {
+          "h": "Cookies",
+          "p": "One essential, httpOnly session cookie that keeps you signed in, and your language/currency preference in local storage. No analytics, advertising or tracking cookies."
+        },
+        {
+          "h": "Technical data",
+          "p": "IP address and browser name are stored with your sessions and used to rate-limit sign-in attempts. Rate-limit records are deleted after 24 hours."
+        },
+        {
+          "h": "Who processes it",
+          "p": "Hosting (Vercel) and the database (Turso). Telegram, Slack or your webhook receive lead data only if you connect them. Payments in this demo are test transactions — no card data is collected."
+        },
+        {
+          "h": "Retention & your rights",
+          "p": "Anonymous demo leads and orders are deleted after 7 days. Your account data stays until you delete it: Dashboard → Settings → Danger zone removes your account and everything linked to it immediately. You can also export your leads as CSV at any time."
+        },
+        {
+          "h": "Contact",
+          "p": "Questions about your data: message me on Fiverr via the link at the bottom of the home page."
+        }
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "intro": "By creating an account you accept these short terms.",
+      "sections": [
+        {
+          "h": "A demo service",
+          "p": "Chameleon Engine shows what a conversion-focused business web app can do. It is provided free, as is, without warranties or uptime guarantees, and data may be reset during maintenance."
+        },
+        {
+          "h": "Test payments only",
+          "p": "All checkouts run in test or sandbox mode. No real money is charged and nothing is sold through this site."
+        },
+        {
+          "h": "Acceptable use",
+          "p": "Don't use the lead API or notifications to send spam, collect data you have no right to, or attack other services. Accounts that do will be removed."
+        },
+        {
+          "h": "Your content",
+          "p": "You keep ownership of everything you enter. You can export your leads and delete your account at any time."
+        },
+        {
+          "h": "Ordering work",
+          "p": "Custom development is ordered and paid through Fiverr and follows Fiverr's Terms of Service."
+        }
+      ]
+    }
+  }
+}
