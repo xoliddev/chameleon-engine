@@ -4,6 +4,8 @@
 
 **English** · [O'zbekcha](README.uz.md)
 
+[![▶ Live demo](https://img.shields.io/badge/%E2%96%B6_Live_demo-chameleonengine.vercel.app-22b8f0?style=for-the-badge)](https://chameleonengine.vercel.app)
+
 **One landing page that rewires itself for any industry, plus the real product behind it:**
 accounts, a database, a dashboard, signed webhooks and a public lead-capture API.
 

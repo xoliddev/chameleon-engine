@@ -4,6 +4,8 @@
 
 [English](README.md) · **O'zbekcha**
 
+[![▶ Jonli demo](https://img.shields.io/badge/%E2%96%B6_Jonli_demo-chameleonengine.vercel.app-22b8f0?style=for-the-badge)](https://chameleonengine.vercel.app)
+
 **Istalgan sohaga moslashib, o'zini qayta quradigan bitta landing sahifa va uning ortidagi haqiqiy mahsulot:**
 akkauntlar, ma'lumotlar bazasi, dashboard, imzolangan webhook'lar va lidlarni yig'ish uchun ochiq API.
 
