@@ -1,4 +1,6 @@
 import dns from "node:dns/promises";
+import http from "node:http";
+import https from "node:https";
 import net from "node:net";
 import { hmacHex, webhookSecret } from "./crypto";
 import { getIntegrations } from "./repo";
@@ -44,13 +46,34 @@ function slackPayload(biz: string, e: NotifyEvent) {
 }
 
 /* ---------- SSRF guard for user-supplied webhook URLs ---------- */
-function privateIp(ip: string) {
-  if (net.isIPv4(ip)) {
-    const [a, b] = ip.split(".").map(Number);
-    return a === 10 || a === 127 || a === 0 || (a === 169 && b === 254) || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168) || (a === 100 && b >= 64 && b <= 127);
-  }
-  const v = ip.toLowerCase();
-  return v === "::1" || v === "::" || v.startsWith("fc") || v.startsWith("fd") || v.startsWith("fe80") || v.startsWith("::ffff:127.") || v.startsWith("::ffff:10.") || v.startsWith("::ffff:192.168.");
+const BLOCKED = new net.BlockList();
+for (const [a, p] of [["0.0.0.0", 8], ["10.0.0.0", 8], ["100.64.0.0", 10], ["127.0.0.0", 8], ["169.254.0.0", 16], ["172.16.0.0", 12], ["192.0.0.0", 24], ["192.168.0.0", 16], ["198.18.0.0", 15], ["224.0.0.0", 3]] as const) BLOCKED.addSubnet(a, p, "ipv4");
+for (const [a, p] of [["::", 96], ["fc00::", 7], ["fe80::", 10], ["ff00::", 8], ["64:ff9b::", 96]] as const) BLOCKED.addSubnet(a, p, "ipv6");
+
+/** IPv4-mapped IPv6 (::ffff:169.254.169.254 in any spelling) → the IPv4 address it reaches. */
+function mappedV4(ip: string): string | null {
+  const h = new URL(`http://[${ip}]`).hostname.slice(1, -1).toLowerCase();
+  const m = /^::ffff:([0-9a-f]{1,4}):([0-9a-f]{1,4})$/.exec(h);
+  if (!m) return null;
+  const a = parseInt(m[1], 16), b = parseInt(m[2], 16);
+  return `${a >> 8}.${a & 255}.${b >> 8}.${b & 255}`;
+}
+
+export function privateIp(ip: string) {
+  if (net.isIPv4(ip)) return BLOCKED.check(ip, "ipv4");
+  if (!net.isIPv6(ip)) return true;
+  const v4 = mappedV4(ip);
+  return v4 ? BLOCKED.check(v4, "ipv4") : BLOCKED.check(ip, "ipv6");
+}
+
+type LookupCb = (err: NodeJS.ErrnoException | null, address: string | { address: string; family: number }[], family?: number) => void;
+/** Resolves for the actual connection and refuses private addresses, so DNS rebinding after the check cannot reach them. */
+function guardedLookup(hostname: string, options: { all?: boolean }, cb: LookupCb) {
+  dns.lookup(hostname, { all: true }).then(addrs => {
+    if (isProd && (!addrs.length || addrs.some(a => privateIp(a.address)))) return cb(new Error("private network addresses are not allowed"), "");
+    if (options.all) cb(null, addrs);
+    else cb(null, addrs[0].address, addrs[0].family);
+  }, err => cb(err, ""));
 }
 
 /** Returns an error string, or null when the URL is safe to call. */
@@ -70,16 +93,23 @@ export async function checkWebhookUrl(raw: string): Promise<string | null> {
   return null;
 }
 
-async function post(url: string, body: string, headers: Record<string, string> = {}) {
-  const res = await fetch(url, {
-    method: "POST",
-    headers: { "content-type": "application/json", "user-agent": "ChameleonEngine-Webhook/1.0", ...headers },
-    body,
-    redirect: "manual",
-    signal: AbortSignal.timeout(5000),
-    cache: "no-store"
+function post(url: string, body: string, headers: Record<string, string> = {}): Promise<void> {
+  return new Promise((resolve, reject) => {
+    const u = new URL(url);
+    const req = (u.protocol === "https:" ? https : http).request(u, {
+      method: "POST",
+      headers: { "content-type": "application/json", "user-agent": "ChameleonEngine-Webhook/1.0", "content-length": String(Buffer.byteLength(body)), ...headers },
+      lookup: guardedLookup as never
+    }, res => {
+      res.resume(); // redirects are not followed
+      const code = res.statusCode ?? 0;
+      if (code >= 200 && code < 300) resolve(); else reject(new Error(`HTTP ${code}`));
+    });
+    const timer = setTimeout(() => req.destroy(new Error("timeout")), 5000);
+    req.on("close", () => clearTimeout(timer));
+    req.on("error", reject);
+    req.end(body);
   });
-  if (res.status >= 300) throw new Error(`HTTP ${res.status}`);
 }
 
 /* ---------- adapters ---------- */
